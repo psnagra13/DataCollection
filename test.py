@@ -4,6 +4,8 @@ from classes import RssCrawler
 
 RssLinksFilePathList = ["resources/rssLinks/listOfRssLinksIndia"]
 
+cacheDictionary ={}
+
 for RssLinksFilePath in RssLinksFilePathList:
 
     # Get dictionary of RssLinks in the form of dictionary { rssLink : newspaperName }
